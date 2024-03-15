@@ -1,7 +1,7 @@
 ![image](https://github.com/10H-K/Crowdfunding_ETL/assets/152667250/e9b17252-3114-42e8-8e5d-1b825df2b61f)
 
 
-# Building an ETL Pipeline Using Python and Pandas
+# Building ETL Pipeline Using Python & Pandas
 
 ## Overview ##
 
