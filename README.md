@@ -11,8 +11,9 @@ The objective of this project is to build an extract, transform, and load (ETL) 
 
 A) Extract The crowdfunding.xlsx Data:
   1. Importation of dependencies (Pandas and NumPy)
-  2. Read the data in the excel file 'crowdfunding.xlsx' into a Pandas DataFrame
-  3. Get a brief summary of the crowdfunding_info_df DataFrame
+  2. Set the column width for the Pandas DataFrames
+  3. Read the data in the excel file 'crowdfunding.xlsx' into a Pandas DataFrame
+  4. Get a brief summary of the crowdfunding_info_df DataFrame
 
 B) Create The Category And Subcategory DataFrames:
   1. Get the crowdfunding_info_df columns
@@ -67,7 +68,7 @@ Inspect the four CSV files created above, and then sketch an entity relationship
 
 A) Create The Crowdfunding Database:
   1. Use the information from the ERD to create a table schema for each CSV file
-  2. Save the database schema as a Postgres file named crowdfunding_db_schema.sql
+  2. Save the database schema as a Postgres file
   3. Create a new Postgres database, named crowdfunding_db
   4. Using the database schema, create the tables in the correct order to handle the foreign keys
   5. Verify the table creation by running a SELECT statement for each table
